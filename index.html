@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <!-- header -->
+      <!-- ヘッダー -->
       <header class="header">
         <a href="/">
           <img
@@ -27,13 +27,13 @@
         </a>
       </header>
 
-      <!-- banner -->
+      <!-- バナー -->
       <div class="banner">
         <img src="./public/img/banner.png" alt="水のトラブルすぐに解決" />
         <div class="banner-text">各種カード支払い・QR決済OK</div>
       </div>
 
-      <!-- CTA top -->
+      <!-- CTA -->
       <div class="cta">
         <div class="cta-items">
           <div class="cta-item">
@@ -60,7 +60,7 @@
         </a>
       </div>
 
-      <!-- net-wari -->
+      <!-- ネット割 -->
       <div class="net">
         <img src="./public/img/net-free.png" alt="ネット割" />
       </div>
@@ -81,7 +81,7 @@
         </a>
       </div>
 
-      <!-- section 3 -->
+      <!-- 関西水道修理センターと他社との料金体系比較 -->
       <div class="section-3">
         <div class="section-3__title">
           <img src="./public/img/section4_text.png" alt="" />
@@ -99,7 +99,7 @@
         <p class="text-32">（例）トイレの配管からの水漏れ</p>
       </div>
 
-      <!-- section 4 -->
+      <!-- 場所別料金 -->
       <div class="section-4">
         <div class="section-4-title">場所別料金</div>
 
@@ -189,7 +189,7 @@
         </div>
       </div>
 
-      <!-- section 5 -->
+      <!-- 便器の交換作業その他トイレトラブルご相談ください！ -->
       <div class="section-5">
         <span>便器の交換作業</span> <br />
         その他<span>トイレトラブル</span> <br />
@@ -212,7 +212,7 @@
         </a>
       </div>
 
-      <!-- section 6 -->
+      <!-- 関西水道修理センターが選ばれる５つの理由 -->
       <div class="bg-detail">
         <div class="section-6">
           <img src="./public/img/section6_1.png" alt="関西水道修理センター" />
@@ -402,7 +402,7 @@
         </div>
       </div>
 
-      <!-- section 8 -->
+      <!-- お支払方法 -->
       <div class="section-8">
         <div class="section-8__payment-method">
           <img src="./public/img/visa.png" alt="visa" />
@@ -433,7 +433,7 @@
         </div>
       </div>
 
-      <!-- section 9 -->
+      <!-- お客様の声 -->
       <div class="section-9">
         <img src="./public/img/section_9.png" alt="関西水道修理センター" />
         <img
@@ -534,7 +534,7 @@
         </div>
       </div>
 
-      <!-- section 10 -->
+      <!-- 幅広い対応エリア -->
       <div class="section-10">
         <div class="section-10__title">
           <img src="./public/img/section_10_title.png" alt="幅広い対応エリア" />
@@ -564,7 +564,7 @@
         </div>
       </div>
 
-      <!-- section 11 -->
+      <!-- よくあるご質問 -->
       <div class="section-11">
         <div class="section-11__title">よくあるご質問</div>
         <div class="section-11__content">
@@ -699,10 +699,10 @@
         </a>
       </div>
 
-      <!-- footer -->
+      <!-- フッター -->
       <footer>©関西水道修理センター All Rights Reserved.</footer>
 
-      <!-- fixed cta for sp -->
+      <!-- CTA　SP版 -->
       <div class="fixed-cta-sp">
         <a href="tel:0120-545-976" class="glow">
           <img
@@ -727,7 +727,7 @@
       let slideIndex = 0;
       showSlides();
 
-      // Auto slide every 5 seconds
+      // 5秒ごとに自動スライド
       setInterval(() => {
         slideIndex++;
         showSlides();
@@ -756,7 +756,7 @@
         dots[slideIndex].className += " active";
       }
 
-      // Accordion
+      // アコーディオン
       document
         .querySelectorAll(".section-11__content-item__title")
         .forEach((item) => {
@@ -767,7 +767,7 @@
             item.style.paddingBottom =
               content.style.display === "grid" ? "30px" : "0";
 
-            // Change plus icon
+            // アイコン変更
             const plusIcon = item.querySelector("img");
             plusIcon.src =
               content.style.display === "grid"
