@@ -1,0 +1,66 @@
+.net {
+  padding: 80px 0;
+  background-image: url("../img/net-bg.webp");
+  background-size: cover;
+  background-position: center;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 430px) {
+    padding: calc(80px / 1.5) 0;
+  }
+}
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 36px 43px 0 43px;
+  border-color: var(--dark-blue) transparent transparent transparent;
+  transform: rotate(0deg);
+  @media screen and (max-width: 430px) {
+    border-width: calc(36px / 1.5) calc(43px / 1.5) 0 calc(43px / 1.5);
+  }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-cta-custom {
+  margin-top: 30px;
+  @media screen and (max-width: 430px) {
+    margin-top: calc(30px / 1.5);
+  }
+}
+
+.padding-cta-custom {
+  padding-top: 80px;
+  @media screen and (max-width: 430px) {
+    padding-top: calc(80px / 1.5);
+  }
+}
+
+.fixed-cta-sp {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--dark-blue);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  padding: 10px 20px;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  @media screen and (min-width: 431px) {
+    display: none;
+  }
+}

@@ -1,0 +1,49 @@
+.section-8 {
+  &__payment-method {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: -30px;
+    @media screen and (max-width: 430px) {
+      top: calc(-30px / 1.5);
+    }
+    img[alt="visa"] {
+      height: 141px;
+      object-fit: contain;
+      @media screen and (max-width: 430px) {
+        height: calc(141px / 1.5);
+      }
+    }
+    img[alt="jcb"] {
+      height: 159px;
+      object-fit: contain;
+      @media screen and (max-width: 430px) {
+        height: calc(159px / 1.5);
+      }
+    }
+    img[alt="paypay"] {
+      height: 111px;
+      object-fit: contain;
+      @media screen and (max-width: 430px) {
+        height: calc(111px / 1.5);
+      }
+    }
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: var(--text);
+    line-height: 2;
+    margin-bottom: 80px;
+    @media screen and (max-width: 430px) {
+      font-size: calc(var(--text) / 1.7);
+      margin-bottom: calc(80px / 1.5);
+    }
+  }
+}

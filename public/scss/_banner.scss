@@ -1,0 +1,29 @@
+// banner
+.banner {
+  position: relative;
+  margin-bottom: 25px;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .banner-text {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--small-text);
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    background-color: var(--light-blue);
+
+    @media screen and (max-width: 430px) {
+      height: calc(70px / 1.5);
+      font-size: calc(var(--small-text) / 1.5);
+    }
+  }
+}
