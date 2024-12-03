@@ -15,7 +15,7 @@
     padding: 0 88px;
     margin-bottom: 30px;
     @media screen and (max-width: 430px) {
-      padding: 0 calc(88px / 1.5);
+      padding: 0;
       margin-bottom: calc(30px / 1.5);
     }
   }
@@ -55,7 +55,7 @@
   .text-41 {
     font-size: 41px;
     @media screen and (max-width: 430px) {
-      font-size: calc(41px / 1.5);
+      font-size: calc(41px / 2);
     }
   }
   .text-32 {

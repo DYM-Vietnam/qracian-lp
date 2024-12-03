@@ -1,9 +1,15 @@
 .section-4 {
   margin-bottom: 80px;
   padding: 0 30px;
+  br {
+    display: none;
+  }
   @media screen and (max-width: 430px) {
     margin-bottom: calc(80px / 1.5);
     padding: 0 calc(30px / 1.5);
+    br {
+      display: block;
+    }
   }
 
   &-title {

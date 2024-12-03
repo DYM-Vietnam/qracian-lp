@@ -154,6 +154,16 @@
           font-size: calc(var(--small-text) / 1.5) !important;
         }
       }
+
+      &:nth-child(2) {
+        &::before {
+          background-color: var(--bg-psuedo);
+        }
+
+        &::after {
+          background-color: var(--bg-psuedo);
+        }
+      }
     }
   }
 }

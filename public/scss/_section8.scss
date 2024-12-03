@@ -6,7 +6,7 @@
     align-items: center;
     justify-items: center;
     position: relative;
-    top: -30px;
+    margin-top: 30px;
     @media screen and (max-width: 430px) {
       top: calc(-30px / 1.5);
     }
@@ -40,10 +40,10 @@
     text-align: center;
     font-size: var(--text);
     line-height: 2;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     @media screen and (max-width: 430px) {
       font-size: calc(var(--text) / 1.7);
-      margin-bottom: calc(80px / 1.5);
+      margin-bottom: calc(30px / 1.5);
     }
   }
 }
