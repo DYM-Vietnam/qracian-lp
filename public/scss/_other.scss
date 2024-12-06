@@ -94,3 +94,10 @@
     background-color: transparent;
   }
 }
+
+.pc-only {
+  display: block;
+  @media screen and (max-width: 430px) {
+    display: none;
+  }
+}

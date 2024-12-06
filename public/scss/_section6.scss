@@ -130,7 +130,7 @@
         @media screen and (max-width: 430px) {
           font-size: calc(var(--small-text) / 1.5);
           margin: calc(50px / 1.5) 0 calc(30px / 1.5);
-          padding: 0 calc(40px / 1.5);
+          padding: 0 calc(40px / 2);
         }
         &::before {
           content: "";
@@ -154,7 +154,7 @@
         line-height: 2;
         @media screen and (max-width: 430px) {
           font-size: calc(var(--text) / 1.5);
-          padding: 0 calc(40px / 1.5);
+          padding: 0 calc(40px / 2);
         }
       }
     }

@@ -7,7 +7,6 @@
   width: 100%;
   @media screen and (max-width: 430px) {
     padding: calc(50px / 1.5);
-    margin-top: calc(80px / 1.5);
   }
   &__wrapper {
     width: max-content;
@@ -30,7 +29,7 @@
     width: 100%;
     border-radius: 100px;
     @media screen and (max-width: 430px) {
-      font-size: calc(var(--text) / 2);
+      font-size: calc(var(--text) / 1.5);
       padding: calc(12px / 1.5) 0;
     }
   }
@@ -41,7 +40,7 @@
     color: white;
     text-align: center;
     @media screen and (max-width: 430px) {
-      font-size: calc(var(--medium-text) / 2);
+      font-size: calc(var(--medium-text) / 1.7);
     }
   }
 }
